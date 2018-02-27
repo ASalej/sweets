@@ -1,0 +1,225 @@
+.donut-container {
+    background: var(--donut-container-bg);
+}
+
+.hole {
+    border-radius: 50%;
+    background-color: var(--donut-container-bg);
+    width: 70px;
+    height: 70px;
+    left: calc(50% - 35px);
+    top: calc(50% - 35px);
+}
+
+.donut-container > div {
+    position: absolute;
+}
+
+.backed-round {
+    border-radius: 50%;
+    background-color: #ffd47c;
+    width: 300px;
+    height: 300px;
+    left: calc(50% - 150px);
+    top: calc(50% - 150px);
+}
+
+.color-round {
+    border-radius: 280px 280px 0% 0%;
+    background-color: var(--donut-bg-color);
+    width: 280px;
+    height: 140px;
+    left: calc(50% - 140px);
+    top: calc(50% - 140px);
+}
+
+.color-drop1 {
+    height: 56px;
+    width: 39px;
+    background: var(--donut-bg-color);
+    border-radius: 0 0 25px 25px;
+    top: calc(50% - 10px);
+    left: 60px;
+}
+
+.color-drop2 {
+    height: 107px;
+    width: 61px;
+    background: var(--donut-bg-color);
+    border-radius: 0 0 50px 50px;
+    top: calc(50% - 10px);
+    left: 99px;
+}
+
+.color-drop3 {
+    height: 48px;
+    width: 35px;
+    background: var(--donut-bg-color);
+    border-radius: 0 0 25px 25px;
+    top: calc(50% - 10px);
+    left: 305px;
+}
+
+.color-drop4 {
+    height: 108px;
+    width: 26px;
+    background: var(--donut-bg-color);
+    border-radius: 0 0 25px 25px;
+    top: calc(50% - 10px);
+    left: 285px;
+}
+
+.color-drop5 {
+    height: 84px;
+    width: 30px;
+    background: var(--donut-bg-color);
+    border-radius: 0 0 25px 25px;
+    top: calc(50% - 10px);
+    left: 263px;
+}
+
+.color-drop6 {
+    height: 33px;
+    width: 23px;
+    background: var(--donut-bg-color);
+    border-radius: 0 0 25px 25px;
+    top: calc(50% - 10px);
+    left: 240px;
+}
+
+.backed-hole {
+    border-radius: 50%;
+    background-color: #ffd47c;
+    width: 80px;
+    height: 80px;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+}
+
+.topping {
+    position: absolute;
+    width: 15px;
+    height: 6px;
+    border-radius: 2px;
+}
+
+.topping.white {
+    background-color: var(--topping-white-bg-color);
+}
+
+.topping.white:nth-child(1) {
+    left: 150px;
+    top: 130px;
+    transform: rotate(20deg);
+}
+
+.topping.white:nth-child(2) {
+    left: 275px;
+    top: 230px;
+    transform: rotate(25deg);
+}
+
+.topping.white:nth-child(3) {
+    left: 80px;
+    top: 222px;
+    transform: rotate(120deg);
+}
+
+
+.topping.yellow {
+    background-color: var(--topping-yellow-bg-color);
+}
+
+.topping.yellow:nth-child(4) {
+    left: 120px;
+    top: 240px;
+    transform: rotate(71deg);
+}
+
+.topping.yellow:nth-child(5) {
+    left: 290px;
+    top: 124px;
+    transform: rotate(54deg);
+}
+
+.topping.yellow:nth-child(6) {
+    left: 89px;
+    top: 142px;
+    transform: rotate(133deg);
+}
+
+.topping.pink {
+    background-color: var(--topping-pink-bg-color);
+}
+
+.topping.pink:nth-child(7) {
+    left: 141px;
+    top: 206px;
+    transform: rotate(122deg);
+}
+
+.topping.pink:nth-child(8) {
+    left: 200px;
+    top: 97px;
+    transform: rotate(120deg);
+}
+
+.topping.pink:nth-child(9) {
+    left: 292px;
+    top: 278px;
+    transform: rotate(70deg);
+}
+
+.topping.white:nth-child(10) {
+    left: 315px;
+    top: 178px;
+    transform: rotate(137deg);
+}
+
+.topping.white:nth-child(11) {
+    left: 243px;
+    top: 126px;
+    transform: rotate(161deg);
+}
+
+.topping.white:nth-child(12) {
+    left: 93px;
+    top: 174px;
+    transform: rotate(7deg);
+}
+
+.topping.yellow:nth-child(13) {
+    left: 254px;
+    top: 189px;
+    transform: rotate(-4deg);
+}
+
+.topping.yellow:nth-child(14) {
+    left: 145px;
+    top: 80px;
+    transform: rotate(170deg);
+}
+
+.topping.yellow:nth-child(15) {
+    left: 203px;
+    top: 143px;
+    transform: rotate(20deg);
+}
+
+.topping.pink:nth-child(16) {
+    left: 250px;
+    top: 80px;
+    transform: rotate(-4deg);
+}
+
+.topping.pink:nth-child(17) {
+    left: 112px;
+    top: 277px;
+    transform: rotate(170deg);
+}
+
+.topping.pink:nth-child(18) {
+    left: 247px;
+    top: 160px;
+    transform: rotate(-61deg);
+}

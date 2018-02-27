@@ -1,0 +1,48 @@
+.ice-cream-container {
+    background: #f9add6;
+}
+
+.ice-cream-container > div {
+    position: absolute;
+}
+
+.wand {
+    background-color: #e8d1a8;
+    width: 30px;
+    height: 200px;
+    border-radius: 17px;
+    left: calc(50% - 15px);
+    top: 130px;
+}
+
+.chocolate-back {
+    background-color: #2d1d12;
+    width: 100px;
+    height: 200px;
+    border-radius: 40px;
+    left: calc(50% - 50px);
+    top: 30px;
+}
+
+.chocolate-font {
+    background-color: brown;
+}
+.melted-chocolate {
+    background-color: #82472c;
+    width: 35px;
+    height: 22px;
+    left: calc(50% + 8px);
+    top: 42px;
+    border-radius: 9px;
+    transform: rotate(44deg);
+}
+
+.ice-milk {
+    background-color: white;
+    width: 30px;
+    height: 15px;
+    left: calc(50% + 10px);
+    top: 44px;
+    border-radius: 35px;
+    transform: rotate(43deg);
+}
